@@ -8,25 +8,36 @@ body{
     background-color: rgb(250, 228, 208);
 }
 
+h1{
+    font-size: 70px;
+    font-weight: normal;
+    text-align: center;
+    margin: 100px 0px 20px;
+    color: #9b1727;
+}
+
+
 /* Wrapper of Input Boxes */
 .wrapper{
-    margin: 200px auto;
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 80px;
     background-color: rgb(248, 201, 156);
-    border-radius: 10px;
+    border-radius: 16px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.10);
     height: 300px;
-    width: 800px;  
+    width: 700px;  
 }
 
 /* For Input Boxes */
 .inputBox>h3{
     font-size: 40px;
     margin: 15px 0px;
+    font-weight: normal;
 }
+
 .inputBox>input{
     font-size: 30px;
     width: 100px;
@@ -36,13 +47,16 @@ body{
     text-align:center;
     cursor: pointer;
 }
+
 .inputBox>i{
     font-size: 35px;
     padding-left: 15px;
 }
+
 #low{
     color: rgb(60, 128, 206);
 }
+
 #high{
     color: red;
 }
@@ -51,7 +65,7 @@ body{
 
 /* For arrows */
 .arrows{
-    font-size: 40px;
+    font-size: 45px;
     color: white;
     text-align: center;
     margin-top: 120px;
