@@ -14,7 +14,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 90px;
+    gap: 80px;
     background-color: rgb(248, 201, 156);
     border-radius: 10px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.10);
@@ -36,6 +36,18 @@ body{
     text-align:center;
     cursor: pointer;
 }
+.inputBox>i{
+    font-size: 35px;
+    padding-left: 15px;
+}
+#low{
+    color: rgb(60, 128, 206);
+}
+#high{
+    color: red;
+}
+
+
 
 /* For arrows */
 .arrows{
